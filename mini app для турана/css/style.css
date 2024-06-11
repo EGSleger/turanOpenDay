@@ -29,7 +29,6 @@ main {
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
-    Background-color: aqua;
 }
 .main_title{
     font-family: 'Intro';
@@ -47,8 +46,8 @@ main {
     justify-content: space-around;
 }
 .card{
-    width: 300px;
-    height: 126px;
+    width: 250px;
+    height: 96px;
     background-color: #02A4FF;
     border-radius: 15px;
     display: flex;

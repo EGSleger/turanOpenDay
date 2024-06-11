@@ -23,8 +23,8 @@
     
 }
 main {
-    width: 300px;
-    height: 390px;
+    width: 520px;
+    height: 480px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -34,7 +34,7 @@ main {
     font-family: 'Intro';
     margin-top: 3vh;
     padding: 0;
-    font-size: 16px;
+    font-size: 18px;
     color: #02A4FF;
     text-align: center;
 
@@ -57,7 +57,7 @@ main {
 }
 .card_h2{
     color: white;
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Roboto_medium';
     margin-left: 2vw;
 }
@@ -65,12 +65,12 @@ main {
     color:#fff;
     font-family: 'Roboto_bold';
     margin-left: 2vw;
-    font-size: 10px;
+    font-size: 12px;
     margin-top: 1vh;
 }
 .card_h4{
     color:#fff;
     font-family: 'Roboto_regular';
     margin-left: 2vw;
-    font-size: 8px;
+    font-size: 10px;
 }

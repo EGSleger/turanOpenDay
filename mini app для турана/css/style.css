@@ -23,8 +23,8 @@
     
 }
 main {
-    width: 720px;
-    height: 720px;
+    width: 300px;
+    height: 390px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -32,9 +32,9 @@ main {
 }
 .main_title{
     font-family: 'Intro';
-    margin-top: 10vh;
+    margin-top: 3vh;
     padding: 0;
-    font-size: 48px;
+    font-size: 16px;
     color: #02A4FF;
     text-align: center;
 
@@ -46,31 +46,31 @@ main {
     justify-content: space-around;
 }
 .card{
-    width: 660px;
-    height: 210px;
+    width: 260px;
+    height: 76px;
     background-color: #02A4FF;
-    border-radius: 45px;
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-top: 5vh;
+    margin-top: 2vh;
 }
 .card_h2{
     color: white;
-    font-size: 48px;
+    font-size: 16px;
     font-family: 'Roboto_medium';
-    margin-left: 5vw;
+    margin-left: 2vw;
 }
 .card_h3{
     color:#fff;
     font-family: 'Roboto_bold';
-    margin-left: 5vw;
-    font-size: 24px;
+    margin-left: 2vw;
+    font-size: 10px;
     margin-top: 1vh;
 }
 .card_h4{
     color:#fff;
     font-family: 'Roboto_regular';
-    margin-left: 5vw;
-    font-size: 24px;
+    margin-left: 2vw;
+    font-size: 8px;
 }

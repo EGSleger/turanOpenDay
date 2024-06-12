@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,34 +8,51 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <main>
-        <div class="h1_container">
-        <h1 class="main_title">Дни открытых дверей<br/>колледжа туран</h1>
-        </div>
-        <div class="cards_container">
-            <div class="card">
-                <div>
-                <h2 class="card_h2">25 Апреля</h2>
-                <h3 class="card_h3">12:00 - 14:00</h3>
-                </div>
-                <h4 class="card_h4">Улица Каныша Сатпаева, 16а</h4>
+        <section>
+            <div class="h1_container">
+                <h1 class="main_title">Дни открытых<br/>дверей колледжа<br/>туран</h1>
             </div>
-            <div class="card">
-                <div>
-                <h2 class="card_h2">25 Апреля</h2>
-                <h3 class="card_h3">12:00 - 14:00</h3>
+            <div class="cards_container">
+                <div id="open_model" class="card">
+                    <div>
+                        <h2 class="card_h2">25 Апреля</h2>
+                        <h3 class="card_h3">12:00 - 14:00</h3>
+                    </div>
+                    <h4 class="card_h4">Улица Каныша Сатпаева, 16а</h4>
                 </div>
-                <h4 class="card_h4">Улица Каныша Сатпаева, 16а</h4>
+                <div id="open_model" class="card">
+                    <div>
+                        <h2 class="card_h2">25 Апреля</h2>
+                        <h3 class="card_h3">12:00 - 14:00</h3>
+                    </div>
+                    <h4 class="card_h4">Улица Каныша Сатпаева, 16а</h4>
+                </div>
+                <div id="open_model" class="card">
+                    <div>
+                        <h2 class="card_h2">25 Апреля</h2>
+                        <h3 class="card_h3">12:00 - 14:00</h3>
+                    </div>
+                    <h4 class="card_h4">Улица Каныша Сатпаева, 16а</h4>
+                </div>
             </div>
-            <div class="card">
-                <div>
-                <h2 class="card_h2">25 Апреля</h2>
-                <h3 class="card_h3">12:00 - 14:00</h3>
+        </section>
+        <div id="modal" class="modal">
+            <div class="reg_window">
+                <div id="close_btn" class="close_btn">X</div>
+                <div class="input_conteiner">
+                    <input class="input" caltype="text" placeholder="ФИО">
+                    <input class="input" type="text" placeholder="Номер телефона">
                 </div>
-                <h4 class="card_h4">Улица Каныша Сатпаева, 16а</h4>
+                <div class="button_container">
+                    <button id="reg_btn" class="reg_btn">зарегестрироваться</button>
+                </div>
             </div>
         </div>
     </main>
+    <script defer src="./js/main.js"></script>
 </body>
+
 </html>
